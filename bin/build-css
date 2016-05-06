@@ -1,0 +1,3 @@
+#!/bin/bash
+
+node-sass --include-path=node_modules/bootstrap-sass/assets/stylesheets --include-path=node_modules/font-awesome/scss --output=public/stylesheets  assets/sass

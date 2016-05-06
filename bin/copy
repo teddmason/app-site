@@ -1,0 +1,10 @@
+#!/bin/bash
+
+mkdir public
+mkdir public/scripts
+mkdir public/stylesheets
+mkdir public/images
+mkdir public/stylesheets/fonts
+
+cp assets/images/* public/images/
+cp assets/fonts/* public/stylesheets/fonts/
