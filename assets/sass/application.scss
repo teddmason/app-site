@@ -142,6 +142,9 @@ header .intro-text .skills {
 
 .dropdown-content {
   display: none;
+  @media(min-width:768px) {
+    display: block;
+  }
 }
 
 .dropdown:hover .dropdown-content {
@@ -151,6 +154,22 @@ header .intro-text .skills {
 .dropdown:focus .dropdown-content {
   display: block;
 }
+
+.dropdown-content li a {
+  color: #fff !important;
+  &:hover {
+    color: #777 !important;
+  }
+}
+
+.navbar-header .icon-bar {
+  background-color: #fff !important;
+}
+
+
+
+
+
 
 
 
@@ -199,6 +218,14 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
     border: 0;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-default {
+    background-color: #2c3e50;
 }
 
 section {
