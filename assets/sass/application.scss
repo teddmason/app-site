@@ -7,9 +7,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-
-/*below taken from freelancer need to clean out a load of stuff*/
-
 body {
     overflow-x: hidden;
 }
@@ -166,13 +163,6 @@ header .intro-text .skills {
   background-color: #fff !important;
 }
 
-
-
-
-
-
-
-
 @media(min-width:768px) {
     .navbar-fixed-top {
         padding: 25px 0;
@@ -240,15 +230,6 @@ section h2 {
 section.success {
     color: #fff;
     background: #18bc9c;
-}
-
-section.success a,
-section.success a:hover,
-section.success a:focus,
-section.success a:active,
-section.success a.active {
-    outline: 0;
-    color: #2c3e50;
 }
 
 @media(max-width:767px) {
@@ -373,26 +354,5 @@ footer h3 {
 .btn:focus,
 .btn:active,
 .btn.active {
-    outline: 0;
-}
-
-.scroll-top {
-    z-index: 1049;
-    position: fixed;
-    right: 2%;
-    bottom: 2%;
-    width: 50px;
-    height: 50px;
-}
-
-.scroll-top .btn {
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    font-size: 20px;
-    line-height: 28px;
-}
-
-.scroll-top .btn:focus {
     outline: 0;
 }
