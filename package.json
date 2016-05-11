@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "6.0.0"
+  },
   "scripts": {
     "clean": "bin/clean",
     "copy": "bin/copy",
@@ -11,7 +14,7 @@
     "build": "npm run clean && npm run copy && npm run build-js && npm run build-css",
     "postinstall": "npm run build",
     "start": "node index.js",
-    "test": "bin/test-e2e.js --env default -c test/config/nightwatch.json"
+    "test-e2e": "bin/test-e2e.js --env default -c test/config/nightwatch.json"
   },
   "author": "",
   "license": "ISC",
