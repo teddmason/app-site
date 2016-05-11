@@ -11,7 +11,7 @@
     "build": "npm run clean && npm run copy && npm run build-js && npm run build-css",
     "postinstall": "npm run build",
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "bin/test-e2e.js --env default -c test/config/nightwatch.json"
   },
   "author": "",
   "license": "ISC",
@@ -25,6 +25,7 @@
     "good-console": "^6.1.1",
     "hapi": "^13.3.0",
     "inert": "^3.2.1",
+    "nightwatch": "^0.8.18",
     "node-sass": "^3.7.0"
   }
 }
